@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className="bg-gray-700 flex justify-center items-center h-screen">
+    <div className="bg-gray-800 flex justify-center items-center h-screen">
       <div className="bg-black p-20 m-2 shadow-md rounded-md">
         <h2 className="text-2xl text-white font-bold mb-4">Login</h2>
         <form>
@@ -36,7 +36,7 @@ const Login = () => {
           <Link
             to="/admin"
             type="button"
-            className="bg-blue-500 text-white rounded-md px-4 py-3 w-full mt-6"
+            className="bg-[#001529] text-white rounded-md px-4 py-3 w-full mt-6 text-center"
           >
             Login
           </Link>
