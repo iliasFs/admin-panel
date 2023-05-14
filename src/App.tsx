@@ -13,6 +13,7 @@ import CategoryList from "./pages/CategoryList";
 import ProductList from "./pages/ProductList";
 import BrandList from "./pages/BrandList";
 import BlogCategoryList from "./pages/BlogCategoryList";
+import AddBlog from "./pages/AddBlog";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="enquiries" element={<Enquiries />} />
           <Route path="blog-list" element={<BlogList />} />
+          <Route path="blog" element={<AddBlog />} />
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
           <Route path="list-category" element={<CategoryList />} />

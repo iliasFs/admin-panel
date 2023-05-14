@@ -95,7 +95,7 @@ const MainLayout = () => {
               label: "Orders",
             },
             {
-              key: "blog",
+              key: "blogs",
               icon: <SiBloglovin className="fs-5" />,
               label: "Blogs",
               children: [

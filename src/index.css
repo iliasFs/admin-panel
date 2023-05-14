@@ -40,8 +40,6 @@ body {
   width: 80px !important;
 }
 
-
-
 .logo {
   background-color: #1f2937;
   margin: 5px;
@@ -65,4 +63,11 @@ main {
 
 main::-webkit-scrollbar {
   width: 0px;
+}
+.quill {
+  background-color: white;
+}
+
+.ql-editor{
+  height:350px;
 }
