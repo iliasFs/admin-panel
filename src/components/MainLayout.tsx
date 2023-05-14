@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 import { Layout, Menu, Button, theme } from "antd";
 import { RiDashboard2Fill } from "react-icons/ri";
@@ -9,7 +10,6 @@ import { BiCategoryAlt } from "react-icons/bi";
 import { SiBloglovin } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
 import { ImBlog, ImList } from "react-icons/im";
-import { Outlet } from "react-router-dom";
 import { MdOutlineQuestionAnswer, MdNotifications } from "react-icons/md";
 
 const { Header, Sider, Content } = Layout;
@@ -122,9 +122,9 @@ const MainLayout = () => {
               ],
             },
             {
-              key: "inquiries",
+              key: "enquiries",
               icon: <MdOutlineQuestionAnswer className="fs-5" />,
-              label: "Inquiries",
+              label: "Enquiries",
             },
           ]}
         />
